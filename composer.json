@@ -1,0 +1,18 @@
+{
+    "name": "anthoany/gestion_escolar",
+    "description": "gestion escolar",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Anthoany\\GestionEscolar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "anthoany"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}

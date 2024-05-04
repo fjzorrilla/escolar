@@ -1,0 +1,13 @@
+DirectoryIndex index.php
+
+# Option All-Indexes
+
+ErrorDocument 404 /gestion/index.php
+ErrorDocument 403 /gestion/index.php
+
+# RewirteEngine On
+RewriteRule ^(.*)$ index.php?$1 [L]
+RewriteRule ^gestion/([-a-zA-Z0-9/()_]+)$ index.php?ruta=$1
+
+# RewriteBase /
+
