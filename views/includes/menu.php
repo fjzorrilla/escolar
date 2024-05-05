@@ -44,7 +44,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="views/pages/inscripcion.php" class="nav-link active">
+                <a href="#" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Active Page</p>
                 </a>
@@ -58,10 +58,28 @@
             </ul>
           </li>
           <li class="nav-item">
+            <a href="dashboard" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Dashboard
+                <span class="right badge badge-danger">New</span>
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Simple Link
+                Docentes
+                <span class="right badge badge-danger">New</span>
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="views/pages/inscripcion.php" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Alumnos
                 <span class="right badge badge-danger">New</span>
               </p>
             </a>
