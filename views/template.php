@@ -57,7 +57,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
         }else{
     
-          include "includes/login.php";
+          include 'includes/login.php';
           
         }
         ?>

@@ -76,7 +76,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="inscripcion" class="nav-link">
+            <a href="views/pages/inscripcion.php" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Alumnos
