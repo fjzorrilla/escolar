@@ -41,7 +41,19 @@ scratch. This page gets rid of all links and provides the needed markup only.
             
             if ($_GET["ruta"] == "dashboard" || $_GET["ruta"] == 'inscripcion')
             {
-              include "includes/".$ruta.".php";
+              include "pages/".$ruta."/".$ruta.".php";
+            }
+            else if($_GET["ruta"] == 'estudiante')
+            {
+              include "pages/estudiante/".$ruta.".php";
+            }
+            else if($_GET["ruta"] == 'agregar')
+            {
+              include "pages/estudiante/".$ruta.".php";
+            }
+            else if($_GET["ruta"] == 'listar')
+            {
+              include "pages/inscripcion/".$ruta.".php";
             }
             else
             {
@@ -49,7 +61,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             }
           }else{
             
-            include "includes/dashboard.php";
+            include "pages/dashboard/dashboard.php";
             
           }
     
