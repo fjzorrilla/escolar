@@ -43,6 +43,18 @@ scratch. This page gets rid of all links and provides the needed markup only.
             {
               include "pages/".$ruta."/".$ruta.".php";
             }
+            else if($_GET["ruta"] == 'estudiante')
+            {
+              include "pages/estudiante/".$ruta.".php";
+            }
+            else if($_GET["ruta"] == 'agregar')
+            {
+              include "pages/estudiante/".$ruta.".php";
+            }
+            else if($_GET["ruta"] == 'listar')
+            {
+              include "pages/inscripcion/".$ruta.".php";
+            }
             else
             {
               include "pages/404.php";
